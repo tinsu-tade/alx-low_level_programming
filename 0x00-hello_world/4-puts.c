@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(void) \- Betty documentation checker for C source code
+int main(void)
 {
 char letter[] = "\"Programming is like building a multilingual puzzle";
 puts(letter);
