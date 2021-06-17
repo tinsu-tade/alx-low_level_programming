@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE main.c & printf "\n"
+gcc -c $CFILE
