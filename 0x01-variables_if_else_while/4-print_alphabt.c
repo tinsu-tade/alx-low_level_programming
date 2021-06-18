@@ -7,10 +7,10 @@ int main(void)
 
 	for(ch = 'a'; ch <= 'z'; ch++){
   if(ch == 'q' || ch == 'e')
-  continue
+  continue;
   else
   putchar(ch);
   }
-  putchar('\n')
+  putchar('\n');
 	return (0);
   }
