@@ -7,8 +7,8 @@ int main(void)
   
   for(n = 0; n < 10; n++)
   {
-    printf("%d", n);
+    printf((n%10) + '0');
   }
-  printf("\n");
+  putchar('\n');
   return (0);
 }
