@@ -1,5 +1,6 @@
 #include<stdio.h>
-void print_alphabet(void);
+#include "holberton.h"
+
 int main(void)
 {
 print_alphabet();
