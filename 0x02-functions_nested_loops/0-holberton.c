@@ -1,10 +1,13 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
 char a[] = "Holberton";
      
-for (int i = 0; i < 9; i++)
+while(i < 9)
+{
 putchar(a[i]);
+i++;
+}
 putchar('\n');
 return (0);
 }
