@@ -1,8 +1,8 @@
 #include<stdio.h>
-void printAlpha();
+void print_alphabet(void);
 int main(void)
 {
-void print_alphabet(void);
+void print_alphabet();
 return (0);
 }
 
