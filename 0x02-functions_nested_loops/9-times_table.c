@@ -1,4 +1,4 @@
-#inlcude <stdio.h>
+#include <stdio.h>
 #include "holberton.h"
 
 void times_table(void)
