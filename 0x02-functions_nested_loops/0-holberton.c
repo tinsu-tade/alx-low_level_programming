@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(void)
 {
 int i = 0;
 char a[] = "Holberton";
      
-while(i < 9)
+while (i < 9)
 {
 putchar(a[i]);
 i++;
