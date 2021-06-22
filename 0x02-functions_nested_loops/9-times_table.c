@@ -6,9 +6,15 @@ void times_table(void)
  int h = 0;
    while(h < 10)
    {
+          
           int m = 0;
           while (m < 10)
           {
+             if(h*m < 10 && m != 9)
+             printf("%d,  ", h*m);
+             else if(m == 9)
+             printf("%d  ", h*m);
+             else
              printf("%d, ", h*m);
              m++;
           }
