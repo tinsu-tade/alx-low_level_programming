@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * 
- * 
- * this is the comment
+ * factorial - calculates the factorial
+ * @n: the number to be processed
+ * Return: factorial
  */
 int factorial(int n)
 {
