@@ -28,8 +28,8 @@ putchar(i);
 }   
 
 }	
-
-} 
+}
+return 0;
 }
 
 
