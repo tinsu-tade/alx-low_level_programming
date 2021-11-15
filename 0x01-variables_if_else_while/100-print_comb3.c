@@ -24,7 +24,7 @@ putchar(' ');
 }
 else
 {
-putchar(i); 
+putchar(i);
 }
 }
 }
