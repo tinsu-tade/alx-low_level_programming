@@ -10,12 +10,12 @@
 int main(void)
 {
 int i;
-for(i = 48; i <= 57; i++)
+for( i = 48; i <= 57; i++)
 { 
 int k;
-for (k = i+1; k <= 57 ; k++)
+for (k = i + 1; k <= 57 ; k++)
 {
-if(i<57 || k<57)
+if( i<57 || k<57)
 {
 putchar(i);
 putchar(k);
@@ -24,10 +24,9 @@ putchar(' ');
 }
 else
 {
-putchar(i);         
-}   
-
-}	
+putchar(i);       
+} 
+}
 }
 return 0;
 }
