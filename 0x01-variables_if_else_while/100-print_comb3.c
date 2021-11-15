@@ -9,9 +9,11 @@
 
 int main(void)
 {
-for(int i = 48; i <= 57; i++)
-{      
-for (int k = i+1; k <= 57 ; k++)
+int i;
+for(i = 48; i <= 57; i++)
+{ 
+int k;
+for (k = i+1; k <= 57 ; k++)
 {
 if(i<57 || k<57)
 {
