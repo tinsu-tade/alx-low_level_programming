@@ -9,9 +9,9 @@
 
 int main(void)
 {
-for(char i = 48; i <= 57; i++)
+for(int i = 48; i <= 57; i++)
 {      
-for (char k = i+1; k <= 57 ; k++)
+for (int k = i+1; k <= 57 ; k++)
 {
 if(i<57 || k<57)
 {
@@ -22,8 +22,7 @@ putchar(' ');
 }
 else
 {
-putchar(i);
-putchar(k);         
+putchar(i);         
 }   
 
 }	
