@@ -11,7 +11,7 @@ int main(void)
 {
 for(char i = 48; i <= 57; i++)
 {      
-for (char k = 48; k <= 57 ; k++)
+for (char k = i+1; k <= 57 ; k++)
 {
 if(i<57 || k<57)
 {
