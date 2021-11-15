@@ -4,7 +4,7 @@
 /**
  *main - Entry Point
  *
- Return: Alwasys 0 (Success)
+ *Return: Alwasys 0 (Success)
  */
 int main(void)
 {
