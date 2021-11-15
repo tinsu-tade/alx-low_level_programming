@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-*main - Entry Point
-*
-*Return: Alwasy 0 (Success)
-*/
+ *main - Entry Point
+ *
+ *Return: Alwasy 0 (Success)
+ */
 int main(void)
 {
 char ch;
