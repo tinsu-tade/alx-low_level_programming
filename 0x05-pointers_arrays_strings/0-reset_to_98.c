@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
- *main - Entry Point
+ *reset_to_98 - main
  *
- *Return: Always 0 (Success)
+ *@n: pointer to int
  */
 void reset_to_98(int *n)
 {
