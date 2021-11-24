@@ -1,5 +1,5 @@
 /**
- * main - check the code
+ * _strlen - check the code
  *@s: character pointer
  * Return: Always 0.
  */
