@@ -1,4 +1,3 @@
-#include<unistd>
 /**
  * _puts - prints a char
  *@str: character pointer
