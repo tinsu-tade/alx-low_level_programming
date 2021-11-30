@@ -6,8 +6,13 @@
  */
 void free_listint(listint_t *head)
 {
-while(head != NULL)
+listint_t *new_node;
+listint_t *sec_new;
+new_node = head;
+while(new_node != NULL)
 {
-free(head);
+sec_new = new_node->next;
+free(new_node);
+new_node = sec_new;
 }
 }
