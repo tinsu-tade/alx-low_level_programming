@@ -10,7 +10,7 @@ listint_t *temp;
 int head_data;
 
 if(*head == NULL)
-return (NULL;
+return (0);
 
 temp = *head;
 head_data = temp->n;
