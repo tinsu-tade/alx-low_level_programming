@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  *pop_listint - deletes head of a list.
  *@head: a pointer pointing to a pointer that points to the head of a list.
