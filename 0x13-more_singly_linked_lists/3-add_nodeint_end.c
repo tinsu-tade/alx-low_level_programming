@@ -29,5 +29,6 @@ prevnode = *head;
 while (prevnode->next)
 prevnode = prevnode->next;
 
-prevnode->next = lastnode;  	  
+prevnode->next = lastnode;
+return (lastnode);
 }
