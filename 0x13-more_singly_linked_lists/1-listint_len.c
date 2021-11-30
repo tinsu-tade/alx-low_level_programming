@@ -10,9 +10,8 @@
 size_t listint_len(const listint_t *h)
 {
 int num_nodes = 0;
-while(h != NULL)
+while (h != NULL)
 {
-
 h = h->next;
 num_nodes++;
 }
