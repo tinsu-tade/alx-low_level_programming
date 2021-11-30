@@ -1,3 +1,4 @@
+#include "lists.h"
 /**
  *
  *listint_t - add node at the end.
